@@ -1,0 +1,3 @@
+- Pouvoir mettre des ' dans le traitement php des formulaires
+- faire rentrer les accents dans le BDD
+- remettre à 0 les id
