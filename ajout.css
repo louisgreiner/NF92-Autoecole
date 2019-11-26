@@ -19,6 +19,14 @@ input[type=date]{
   resize: vertical;
 }
 
+input[type=time]{
+  width: 40%;
+  padding: 12px;
+  border: 1px solide #1212ae;
+  border-radius: 4px;
+  resize: vertical;
+}
+
 input[type=email], select, textarea {
   width: 75%;
   padding: 12px;
