@@ -1,5 +1,0 @@
-- Pouvoir mettre des ' dans le traitement php des formulaires
-- faire rentrer les accents dans le BDD
-- remettre à 0 les id
-- ajouter vérifications pour chaque requête php
-- horaire début et fin de séance
