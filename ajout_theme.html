@@ -1,66 +1,39 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="ajout.css">
-    <title>Ajout de thème</title>
-  </head>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="ajout.css">
+    </head>
+
+    <body>
+    <h1><span>AJOUTER UN THEME</span></h1>
     <br><br>
-  <form action="ajouter_theme.php" method="POST">
-    <div class="container">
+    <form action="ajouter_theme.php" method="POST">
+        <div class="container">
 
-      <div class="row">
-        <div class="col-20">
-          <label>Nom du thème</label>
-        </div>
-        <div class="col-50">
-          <input type="text" name="nom_theme" placeholder="Premiers secours" value="" required><br>
-        </div>
-      </div>
+            <div class="row">
+                <div class="col-20">
+                    <label>Nom du thème</label>
+                </div>
+                <div class="col-50">
+                    <input type="text" name="nom_theme" placeholder="Premiers secours" value="" required><br>
+                </div>
+            </div>
 
-      <div class="row">
-        <div class="col-20">
-          <label>Descriptif</label>
-        </div>
-        <div class="col-50">
-          <textarea name="descriptif" style="height: 100px" placeholder="Enseigne les gestes et l'attitute à adopter en cas d'urgence (accident, détresse..)" value="" required></textarea><br>
-        </div>
-      </div>
+            <div class="row">
+                <div class="col-20">
+                    <label>Descriptif</label>
+                </div>
+                <div class="col-50">
+                    <textarea name="descriptif" style="height: 100px" placeholder="Enseigne les gestes et l'attitute à adopter en cas d'urgence (accident, détresse..)" value="" required></textarea><br>
+                </div>
+            </div>
 
-   <!--   <div class="row">
-        <div class="col-20">
-          <label>Nombre de séances</label>
+            <div class="row">
+                <input type="submit" value="Terminé"><br>
+            </div>
         </div>
-        <div class="col-50">
-          <input type="text" name="nombre_seances" placeholder="5" value="" required><br>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-20">
-          <label>Responsable</label>
-        </div>
-        <div class="col-50">
-          <input type="text" name="responsable" placeholder="Michel Vroumvroum" value="" required><br>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-20">
-          <label>Nécessaire pour code</label>
-        </div>
-        <div class="col-50">
-          <input type="radio" name="necessaire" value="Oui" required> Oui <br>
-          <input type="radio" name="necessaire" value="Non"> Non <br>
-        </div>
-      </div>
-    -->
-    <div class="row">
-      <input type="submit" value="Terminé"><br>
-    </div>
-  </div>
-</form>
-<br>  
-<A HREF=accueil.html class="button" TARGET=accueil><button>Retour à l'accueil</button></A>
+    </form>
+    <br>  
+    <A HREF=accueil.html class="button" TARGET=accueil><button>Retour à l'accueil</button></A>
 </body>
 </html>
